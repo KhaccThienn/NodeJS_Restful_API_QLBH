@@ -46,8 +46,6 @@ const categoryController = {
         });
     },
 
-
-
     update: (req, res) => {
         category.update(req.params.id, req.body, (err, data) => {
             if (err) {
